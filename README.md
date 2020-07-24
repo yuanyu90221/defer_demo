@@ -1,6 +1,3 @@
----
-tags: golang, defer 特性
----
 # golang defer 特性(延遲處理)
 
 ## introduction
@@ -119,3 +116,5 @@ recover是對應於panic 用來接下 panic的機制
 可以把panic 接下成error
 
 重點是 recover一定要在 defer的func 內才能使用
+
+[golang defer特性](https://hackmd.io/7F5_kLPqRoObMbQhsnt61w?view)
