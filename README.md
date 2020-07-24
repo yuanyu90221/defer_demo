@@ -49,7 +49,9 @@ func main() {
 
 ```
 https://golang.org/doc/effective_go.html#defer
+
 https://draveness.me/golang/docs/part2-foundation/ch05-keyword/golang-defer/
+
 ## Advantage of use defer?
 
 1 如果把釋放資源的邏輯放在defer之後,可以確保在離開這段func之前一定會執行到
@@ -63,8 +65,9 @@ https://draveness.me/golang/docs/part2-foundation/ch05-keyword/golang-defer/
 因此如果是多個defer的使用 需要注意順序索引發的正確性問題
 ## when to use?
 
-DB connection 的 close
-file stream 的close
+1 DB connection 的 close
+
+2 file stream 的close
 
 ## test
 
