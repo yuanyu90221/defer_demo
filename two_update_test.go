@@ -1,9 +1,9 @@
 package defer_demo
 
-func ExampleTwoDefer() {
-	TwoDefer()
+func ExampleTwoUpdateDefer() {
+	TwoUpdateDefer()
 	// Output:
-	// panic: error out
 	// deferFunc1 Before return
 	// deferFunc Before return
+	// panic: error out
 }

@@ -1,7 +1,7 @@
 package defer_demo
 
-func Example() {
-	Run_multiple()
+func ExampleRUN() {
+	RUN()
 	// Output:
 	// entering: b
 	// in b

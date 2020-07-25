@@ -22,6 +22,6 @@ func b() {
 	a()
 }
 
-func Run_multiple() {
+func RUN() {
 	b()
 }
